@@ -522,7 +522,26 @@ min-width: 37.5rem;
   font-size: 1.563rem;
 }
 
+.introduction .big-button {
+  margin-top: 3rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #f15a29;
+  padding: 16px 26px;
+  text-shadow: none;
+  border-radius: 4px;
+  line-height: 1.33;
+  color: white;
+  width: 10.0rem;
+  font-size: 1.1rem;
+}
 
+.big-button :hover {
+  cursor: pointer;
+  background-color: #000000;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
 
 
 
