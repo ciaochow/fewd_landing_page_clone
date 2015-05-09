@@ -435,20 +435,23 @@ th {
 
 /* Start of Custom Styles */
 body {
-  /* background-color: LightGray;
-  font-family: 'Roboto', sans-serif; */
+  /* background-color: LightGray; */
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
-div {
+/*div {
   border: 1px solid Chocolate;
-}
+} */
 
 .content {
 padding: 0 .938rem;
 margin: 0 auto;
 min-width: 37.5rem;
+}
 
+:focus {
+  outline: none;
 }
 
 /* Navigation Section */
@@ -462,20 +465,16 @@ min-width: 37.5rem;
 
 .top-navigation > .content {
   height: 4.375rem;
-
-  /* width: 970px;
-  height: 70px;
-  margin: 0 auto; */
 }
 
 .top-navigation .logo {
   height: 4.375rem;
-
 }
+
 .top-navigation .links {
   float: right;
   font-family: 'Roboto', sans-serif; 
-  font-size: 16px; 
+  font-size: 1rem; 
   color: #838994; 
   margin-top: 1.7rem;
   /* -webkit-font-smoothing: antialiased; */
@@ -483,7 +482,7 @@ min-width: 37.5rem;
 
 .top-navigation .links li {
   display: inline-block;
-  margin-left: 25px;
+  margin-left: 1.6rem;
 }
 .top-navigation .links li.active {
   color: #4c5058;
@@ -501,14 +500,8 @@ min-width: 37.5rem;
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 45.938rem;
+  height: 45.9rem;
   overflow: auto;
-
-}
-
-.introduction h1 {
-  margin-top: 17.5rem;
-  font-size: 3.125rem;
 }
 
 .introduction h1, .introduction h3 {
@@ -516,32 +509,38 @@ min-width: 37.5rem;
   text-align: center;
   font-weight: 300;
 }
+.introduction h1 {
+  margin-top: 17.5rem;
+  font-size: 3.125rem;
+}
 
 .introduction h3 {
   margin-top: 1.25rem;
-  font-size: 1.563rem;
+  font-size: 1.5rem;
 }
 
 .introduction .big-button {
   margin-top: 3rem;
-  display: block;
+  color: white;
+  text-align: center;
   margin: 0 auto;
+  display: block;
   background-color: #f15a29;
   padding: 16px 26px;
-  text-shadow: none;
   border-radius: 4px;
-  line-height: 1.33;
-  color: white;
-  width: 10.0rem;
-  font-size: 1.1rem;
+  /*line-height: 1.33;*/
+  width: 9.5rem;
+  /*font-size: 1.1rem;*/
 }
 
 .big-button :hover {
   cursor: pointer;
-  background-color: #000000;
-  font-size: 1.2rem;
-  border-radius: 5px;
+  /* background-color: #000000; */
+  /*font-size: 1.2rem;*/
+  /*border-radius: 5px;*/
 }
+
+/* Three Case Images */
 
 .cases h2 {
   font-size: 2.5rem;
@@ -553,19 +552,43 @@ min-width: 37.5rem;
 .cases .content {
   text-align: center;
   margin-top: 8rem;
-
+  padding: none;
+  color: #1d1e21;
 }
+
 .cases .devices {
-    display: inline-block;
-    margin: 1.0rem 2rem 3rem 2rem;
-    
-    /* styles to assist with debugging */
-    /* border: 1px solid black; */
-
+  display: inline-block;
+  margin: 1.0rem 2rem 3rem 2rem;
+  /* styles to assist with debugging */
+  /* border: 1px solid black; */
 }
 
+/* Footer Section */
+.social {
+  text-align: center;
+  background-color: #fff;
+  overflow: auto;
+  padding-bottom: 10rem;
+}
 
+.social hr {
+  border-top: 1px solid #eaebec;
+}
 
+.social .icons > li {
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  text-align: center;
+  padding: .625rem 0;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+}
+
+.social .icons > li:hover {
+  cursor: pointer;
+}
 
 
 
